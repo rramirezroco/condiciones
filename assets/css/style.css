@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+select {
+  width: 90%;
+  height: 30px;
+  text-align: center;
+  color: gray;
+}
+
+article {
+  width: 100%;
+}
+
+.imagen {
+  width: 40%;
+}
+
+.stickers {
+  height: 200px;
+}

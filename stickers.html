@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stickers</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <article>
+          <h2>Puede llevar hasta 10 stickers en total</h2>
+        </article>
+      </section>
+      <section>
+        <article>
+          <img
+            src="./assets/img/panda.webp"
+            alt="Sticker panda"
+            class="stickers"
+          />
+          <input
+            type="number"
+            placeholder="Ingrese cantidad"
+            id="cant-stickers1"
+            oninput="cantidadStickers()"
+          />
+        </article>
+        <article>
+          <img
+            src="./assets/img/stitch-hawai.jpg"
+            alt="Sticker stitch-hawai"
+            class="stickers"
+          />
+          <input
+            type="number"
+            placeholder="Ingrese cantidad"
+            id="cant-stickers2"
+            oninput="cantidadStickers()"
+          />
+        </article>
+        <article>
+          <img
+            src="./assets/img/stitch.jpg"
+            alt="Sticker stitch"
+            class="stickers"
+          />
+          <input
+            type="number"
+            placeholder="Ingrese cantidad"
+            id="cant-stickers3"
+            oninput="cantidadStickers()"
+          />
+        </article>
+      </section>
+      <section>
+        <article><h2 id="texto-stickers">Llevas 0 stickers</h2></article>
+      </section>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
